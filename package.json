@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "description": "",
-  "main": "index.js",
+  "packageManager": "pnpm@6.32.3",
   "scripts": {
     "build": "preconstruct build",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,json,md,yml,yaml}'",
