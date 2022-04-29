@@ -1,0 +1,38 @@
+{
+  "name": "pnpm-typescript-template",
+  "private": true,
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "preconstruct build",
+    "format": "prettier --write './**/*.{js,jsx,ts,tsx,json,md,yml,yaml}'",
+    "postinstall": "preconstruct dev",
+    "test": "jest"
+  },
+  "keywords": [],
+  "author": "Caleb Williams",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/core": "^7.17.10",
+    "@babel/preset-env": "^7.17.10",
+    "@babel/preset-typescript": "^7.16.7",
+    "@preconstruct/cli": "^2.1.5",
+    "@types/jest": "^27.4.1",
+    "@types/node": "^17.0.30",
+    "eslint": "^8.14.0",
+    "jest": "^28.0.3",
+    "prettier": "^2.6.2"
+  },
+  "workspaces": [
+    "packages/*"
+  ],
+  "preconstruct": {
+    "entrypoints": [
+      "src/index.{js,jsx,ts,tsx}"
+    ],
+    "packages": [
+      "packages/*"
+    ]
+  }
+}

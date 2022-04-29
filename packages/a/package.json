@@ -1,0 +1,19 @@
+{
+  "name": "a",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dist/a.cjs.js",
+  "module": "dist/a.esm.js",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "b": "workspace:*"
+  },
+  "keywords": [],
+  "author": "Caleb Williams",
+  "license": "ISC"
+}
