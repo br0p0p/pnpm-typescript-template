@@ -13,6 +13,7 @@ importers:
       eslint: ^8.14.0
       jest: ^28.0.3
       prettier: ^2.6.2
+      typescript: ^4.6.4
     devDependencies:
       '@babel/core': 7.17.10
       '@babel/preset-env': 7.17.10_@babel+core@7.17.10
@@ -23,6 +24,16 @@ importers:
       eslint: 8.14.0
       jest: 28.0.3_@types+node@17.0.30
       prettier: 2.6.2
+      typescript: 4.6.4
+
+  packages/a:
+    specifiers:
+      b: workspace:*
+    dependencies:
+      b: link:../b
+
+  packages/b:
+    specifiers: {}
 
 packages:
 
@@ -4166,6 +4177,12 @@ packages:
   /type-fest/0.8.1:
     resolution: {integrity: sha512-4dbzIzqvjtgiM5rw1k5rEHtBANKmdudhGyBEajN01fEyhaAIhsoKNy6y7+IN93IfpFtwY9iqi7kD+xwKhQsNJA==}
     engines: {node: '>=8'}
+    dev: true
+
+  /typescript/4.6.4:
+    resolution: {integrity: sha512-9ia/jWHIEbo49HfjrLGfKbZSuWo9iTMwXO+Ca3pRsSpbsMbc7/IU8NKdCZVRRBafVPGnoJeFL76ZOAA84I9fEg==}
+    engines: {node: '>=4.2.0'}
+    hasBin: true
     dev: true
 
   /unicode-canonical-property-names-ecmascript/2.0.0:
