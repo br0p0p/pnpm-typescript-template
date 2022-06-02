@@ -8,7 +8,7 @@ importers:
       '@babel/preset-env': 7.18.2
       '@babel/preset-typescript': 7.17.12
       '@preconstruct/cli': 2.1.5
-      '@types/jest': 27.5.1
+      '@types/jest': 28.1.0
       '@types/node': 17.0.30
       '@typescript-eslint/eslint-plugin': 5.27.0
       '@typescript-eslint/parser': 5.27.0
@@ -21,7 +21,7 @@ importers:
       '@babel/preset-env': 7.18.2_@babel+core@7.18.2
       '@babel/preset-typescript': 7.17.12_@babel+core@7.18.2
       '@preconstruct/cli': 2.1.5
-      '@types/jest': 27.5.1
+      '@types/jest': 28.1.0
       '@types/node': 17.0.30
       '@typescript-eslint/eslint-plugin': 5.27.0_dszb5tb7atwkjjijmmov4qhi7i
       '@typescript-eslint/parser': 5.27.0_xztl6dhthcahlo6akmb2bmjmle
@@ -1776,8 +1776,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/27.5.1:
-    resolution: {integrity: sha512-fUy7YRpT+rHXto1YlL+J9rs0uLGyiqVt3ZOTQR+4ROc47yNl8WLdVLgUloBRhOxP1PZvguHl44T3H0wAWxahYQ==}
+  /@types/jest/28.1.0:
+    resolution: {integrity: sha512-ITfF6JJIl9zbEi2k6NmhNE/BiDqfsI/ceqfvdaWaPbcrCpYyyRq4KtDQIWh6vQUru6SqwppODiom/Zhid+np6A==}
     dependencies:
       jest-matcher-utils: 27.5.1
       pretty-format: 27.5.1
