@@ -7,7 +7,7 @@ importers:
       '@babel/core': 7.18.6
       '@babel/preset-env': 7.18.6
       '@babel/preset-typescript': 7.18.6
-      '@preconstruct/cli': 2.1.6
+      '@preconstruct/cli': 2.2.1
       '@types/jest': 28.1.6
       '@types/node': 17.0.30
       '@typescript-eslint/eslint-plugin': 5.32.0
@@ -20,7 +20,7 @@ importers:
       '@babel/core': 7.18.6
       '@babel/preset-env': 7.18.6_@babel+core@7.18.6
       '@babel/preset-typescript': 7.18.6_@babel+core@7.18.6
-      '@preconstruct/cli': 2.1.6
+      '@preconstruct/cli': 2.2.1
       '@types/jest': 28.1.6
       '@types/node': 17.0.30
       '@typescript-eslint/eslint-plugin': 5.32.0_iosr3hrei2tubxveewluhu5lhy
@@ -1576,8 +1576,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@preconstruct/cli/2.1.6:
-    resolution: {integrity: sha512-0V7pt6bVcUdt0ntt34GxkqzpWLkSzmOYSjjQP8B8UtoBGxxYWaJMK4c89Hhk8B3wsFqXF5enpjuoVOj6IozNWQ==}
+  /@preconstruct/cli/2.2.1:
+    resolution: {integrity: sha512-G+sUV9o8l6Ds/82qJZYTXkCsVqPXLuD+bv+nVQeo3OL+eqzO/uAiBBFVp0DMcBJiyQYeU9nb+V8q22/PPaepDw==}
     hasBin: true
     dependencies:
       '@babel/code-frame': 7.18.6
@@ -1588,7 +1588,7 @@ packages:
       '@rollup/plugin-alias': 3.1.9_rollup@2.70.2
       '@rollup/plugin-commonjs': 15.1.0_rollup@2.70.2
       '@rollup/plugin-json': 4.1.0_rollup@2.70.2
-      '@rollup/plugin-node-resolve': 9.0.0_rollup@2.70.2
+      '@rollup/plugin-node-resolve': 11.2.1_rollup@2.70.2
       '@rollup/plugin-replace': 2.4.2_rollup@2.70.2
       builtin-modules: 3.2.0
       chalk: 4.1.2
@@ -1667,8 +1667,8 @@ packages:
       rollup: 2.70.2
     dev: true
 
-  /@rollup/plugin-node-resolve/9.0.0_rollup@2.70.2:
-    resolution: {integrity: sha512-gPz+utFHLRrd41WMP13Jq5mqqzHL3OXrfj3/MkSyB6UBIcuNt9j60GCbarzMzdf1VHFpOxfQh/ez7wyadLMqkg==}
+  /@rollup/plugin-node-resolve/11.2.1_rollup@2.70.2:
+    resolution: {integrity: sha512-yc2n43jcqVyGE2sqV5/YCmocy9ArjVAP/BeXyTtADTBBX6V0e5UMqwO8CdQ0kzjb6zu5P1qMzsScCMRvE9OlVg==}
     engines: {node: '>= 10.0.0'}
     peerDependencies:
       rollup: ^1.20.0||^2.0.0
