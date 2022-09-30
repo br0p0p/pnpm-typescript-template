@@ -7,7 +7,7 @@ importers:
       '@babel/core': 7.19.3
       '@babel/preset-env': 7.19.3
       '@babel/preset-typescript': 7.18.6
-      '@preconstruct/cli': 2.2.1
+      '@preconstruct/cli': 2.2.2
       '@types/jest': 29.0.3
       '@types/node': 18.7.13
       '@typescript-eslint/eslint-plugin': 5.38.0
@@ -20,7 +20,7 @@ importers:
       '@babel/core': 7.19.3
       '@babel/preset-env': 7.19.3_@babel+core@7.19.3
       '@babel/preset-typescript': 7.18.6_@babel+core@7.19.3
-      '@preconstruct/cli': 2.2.1
+      '@preconstruct/cli': 2.2.2
       '@types/jest': 29.0.3
       '@types/node': 18.7.13
       '@typescript-eslint/eslint-plugin': 5.38.0_nk5rsk4g43flw25mxr6nade4cy
@@ -1606,8 +1606,8 @@ packages:
       fastq: 1.13.0
     dev: true
 
-  /@preconstruct/cli/2.2.1:
-    resolution: {integrity: sha512-G+sUV9o8l6Ds/82qJZYTXkCsVqPXLuD+bv+nVQeo3OL+eqzO/uAiBBFVp0DMcBJiyQYeU9nb+V8q22/PPaepDw==}
+  /@preconstruct/cli/2.2.2:
+    resolution: {integrity: sha512-7Zk8g/G+SPusoL1Ir3oslj19QDoFuAKeQO8B6fnNkRRgvIntxnylGZyC4wdKVX/eeDHwca1LNLT/GyjXx1f1nA==}
     hasBin: true
     dependencies:
       '@babel/code-frame': 7.18.6
@@ -1641,7 +1641,7 @@ packages:
       parse-glob: 3.0.4
       parse-json: 5.2.0
       quick-lru: 5.1.1
-      resolve: 1.22.0
+      resolve: 1.22.1
       resolve-from: 5.0.0
       rollup: 2.70.2
       semver: 7.3.7
@@ -3004,7 +3004,7 @@ packages:
     dev: true
 
   /is-extglob/2.1.1:
-    resolution: {integrity: sha1-qIwCU1eR8C7TfHahueqXc8gz+MI=}
+    resolution: {integrity: sha512-SbKbANkN603Vi4jEZv49LeVJMn4yGwsbzZworEoyEiutsN3nJYdbO36zfhGJ6QEDpOZIFkDtnq5JRxmvl3jsoQ==}
     engines: {node: '>=0.10.0'}
     dev: true
 
@@ -4137,15 +4137,6 @@ packages:
   /resolve.exports/1.1.0:
     resolution: {integrity: sha512-J1l+Zxxp4XK3LUDZ9m60LRJF/mAe4z6a4xyabPHk7pvK5t35dACV32iIjJDFeWZFfZlO29w6SZ67knR0tHzJtQ==}
     engines: {node: '>=10'}
-    dev: true
-
-  /resolve/1.22.0:
-    resolution: {integrity: sha512-Hhtrw0nLeSrFQ7phPp4OOcVjLPIeMnRlr5mcnVuMe7M/7eBn98A3hmFRLoFo3DLZkivSYwhRUJTyPyWAk56WLw==}
-    hasBin: true
-    dependencies:
-      is-core-module: 2.10.0
-      path-parse: 1.0.7
-      supports-preserve-symlinks-flag: 1.0.0
     dev: true
 
   /resolve/1.22.1:
