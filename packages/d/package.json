@@ -1,0 +1,20 @@
+{
+  "name": "d",
+  "main": "dist/d.cjs.js",
+  "module": "dist/d.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "react": "17",
+    "react-dom": "17"
+  },
+  "devDependencies": {
+    "@types/react": "17",
+    "@types/react-dom": "17"
+  }
+}

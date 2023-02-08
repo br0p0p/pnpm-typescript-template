@@ -1,5 +1,9 @@
 {
   "compilerOptions": {
-    "isolatedModules": true
+    "declaration": true,
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "jsx": "react-jsx",
+    "skipLibCheck": true
   }
 }
