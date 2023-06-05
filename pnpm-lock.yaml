@@ -9,7 +9,7 @@ importers:
       '@babel/preset-react': 7.22.3
       '@babel/preset-typescript': 7.21.5
       '@preconstruct/cli': 2.6.3
-      '@types/jest': 29.5.1
+      '@types/jest': 29.5.2
       '@types/node': 18.16.16
       '@typescript-eslint/eslint-plugin': 5.51.0
       '@typescript-eslint/parser': 5.51.0
@@ -23,7 +23,7 @@ importers:
       '@babel/preset-react': 7.22.3_@babel+core@7.22.1
       '@babel/preset-typescript': 7.21.5_@babel+core@7.22.1
       '@preconstruct/cli': 2.6.3
-      '@types/jest': 29.5.1
+      '@types/jest': 29.5.2
       '@types/node': 18.16.16
       '@typescript-eslint/eslint-plugin': 5.51.0_b635kmla6dsb4frxfihkw4m47e
       '@typescript-eslint/parser': 5.51.0_4vsywjlpuriuw3tl5oq6zy5a64
@@ -2011,8 +2011,8 @@ packages:
       '@types/istanbul-lib-report': 3.0.0
     dev: true
 
-  /@types/jest/29.5.1:
-    resolution: {integrity: sha512-tEuVcHrpaixS36w7hpsfLBLpjtMRJUE09/MHXn923LOVojDwyC14cWcfc0rDs0VEfUyYmt/+iX1kxxp+gZMcaQ==}
+  /@types/jest/29.5.2:
+    resolution: {integrity: sha512-mSoZVJF5YzGVCk+FsDxzDuH7s+SCkzrgKZzf0Z0T2WudhBUPoF6ktoTPC4R0ZoCPCV5xUvuU6ias5NvxcBcMMg==}
     dependencies:
       expect: 29.5.0
       pretty-format: 29.5.0
