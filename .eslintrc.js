@@ -1,24 +1,24 @@
 module.exports = {
   root: true,
-  extends: ['eslint:recommended'],
+  extends: ["eslint:recommended"],
 
   overrides: [
     {
-      files: ['**/src/**/*.{js,jsx,ts,tsx}'],
+      files: ["**/src/**/*.{js,jsx,ts,tsx}"],
       env: { node: true },
-      parser: '@typescript-eslint/parser',
+      parser: "@typescript-eslint/parser",
       parserOptions: {
         tsconfigRootDir: __dirname,
-        project: ['./tsconfig.eslint.json'],
+        project: ["./tsconfig.eslint.json"],
       },
-      plugins: ['@typescript-eslint'],
+      plugins: ["@typescript-eslint"],
       extends: [
-        'plugin:@typescript-eslint/recommended',
-        'plugin:@typescript-eslint/recommended-requiring-type-checking',
+        "plugin:@typescript-eslint/recommended",
+        "plugin:@typescript-eslint/recommended-requiring-type-checking",
       ],
     },
     {
-      files: ['**/*.{js,ts}'],
+      files: ["**/*.{js,ts}"],
       env: { node: true },
       parser: null,
     },
