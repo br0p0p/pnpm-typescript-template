@@ -16,10 +16,10 @@
   "author": "Caleb Williams",
   "license": "ISC",
   "devDependencies": {
-    "@babel/core": "7.23.0",
-    "@babel/preset-env": "7.22.20",
+    "@babel/core": "7.23.2",
+    "@babel/preset-env": "7.23.2",
     "@babel/preset-react": "7.22.15",
-    "@babel/preset-typescript": "7.23.0",
+    "@babel/preset-typescript": "7.23.2",
     "@preconstruct/cli": "2.8.1",
     "@types/jest": "29.5.5",
     "@types/node": "18.17.19",
