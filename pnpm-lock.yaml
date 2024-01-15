@@ -21,8 +21,8 @@ importers:
         specifier: 7.23.3
         version: 7.23.3(@babel/core@7.23.7)
       '@preconstruct/cli':
-        specifier: 2.8.2
-        version: 2.8.2
+        specifier: 2.8.3
+        version: 2.8.3
       '@types/jest':
         specifier: 29.5.11
         version: 29.5.11
@@ -1796,8 +1796,8 @@ packages:
       fastq: 1.15.0
     dev: true
 
-  /@preconstruct/cli@2.8.2:
-    resolution: {integrity: sha512-/nra7Arq622kVCfvQi4nhrZN+0m1OVq0PAuUcMLKNUR8O/JHOmesultWpeTGB17HzYEx8qYWO11QaTF7oz1yAQ==}
+  /@preconstruct/cli@2.8.3:
+    resolution: {integrity: sha512-4PNEPcp8REUdqZIjtpXF1fqECuHt+pIS6k0PluSRcgX0KwPtfSw407Y2B/ItndgtRD3rKHXI6cKkwh/6Mc4TXg==}
     hasBin: true
     dependencies:
       '@babel/code-frame': 7.23.5
@@ -3386,7 +3386,7 @@ packages:
       '@types/node': 18.19.5
       babel-jest: 29.7.0(@babel/core@7.23.7)
       chalk: 4.1.2
-      ci-info: 3.3.2
+      ci-info: 3.9.0
       deepmerge: 4.3.1
       glob: 7.2.3
       graceful-fs: 4.2.11
@@ -3650,7 +3650,7 @@ packages:
       '@jest/types': 29.6.3
       '@types/node': 18.19.5
       chalk: 4.1.2
-      ci-info: 3.3.2
+      ci-info: 3.9.0
       graceful-fs: 4.2.11
       picomatch: 2.3.1
     dev: true
