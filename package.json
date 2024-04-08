@@ -9,6 +9,7 @@
   },
   "scripts": {
     "build": "preconstruct build",
+    "clean-modules": "del node_modules './**/node_modules'",
     "format": "prettier --write './**/*.{js,jsx,ts,tsx,json,md,yml,yaml}'",
     "lint": "eslint",
     "postinstall": "preconstruct dev",
@@ -26,6 +27,7 @@
     "@preconstruct/cli": "2.8.3",
     "@types/jest": "29.5.12",
     "@types/node": "20.12.5",
+    "del-cli": "5.1.0",
     "eslint": "9.0.0",
     "globals": "15.0.0",
     "jest": "29.7.0",
