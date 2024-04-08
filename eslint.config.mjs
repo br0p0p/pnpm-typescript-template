@@ -10,7 +10,9 @@ export default tseslint.config(
   ...tseslint.configs.recommended,
   {
     languageOptions: {
-      globals: { ...globals.node },
+      globals: {
+        ...globals.node,
+      },
     },
   },
 );
