@@ -26,7 +26,7 @@
     "@babel/preset-typescript": "7.24.6",
     "@preconstruct/cli": "2.8.4",
     "@types/jest": "29.5.12",
-    "@types/node": "20.12.12",
+    "@types/node": "20.14.0",
     "del-cli": "5.1.0",
     "eslint": "9.3.0",
     "globals": "15.3.0",
