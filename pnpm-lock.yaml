@@ -36,8 +36,8 @@ importers:
         specifier: 9.5.0
         version: 9.5.0
       globals:
-        specifier: 15.5.0
-        version: 15.5.0
+        specifier: 15.7.0
+        version: 15.7.0
       jest:
         specifier: 29.7.0
         version: 29.7.0(@types/node@20.14.9)
@@ -3278,8 +3278,8 @@ packages:
     engines: {node: '>=18'}
     dev: true
 
-  /globals@15.5.0:
-    resolution: {integrity: sha512-r7/9tQj5RylGxt/BKGv0D2SvehYvRFYg4ukSNk+EuZxvWI7uK/MJFmOCLq8aKvgh3EVBYFbBlOMAtaITXZr80w==}
+  /globals@15.7.0:
+    resolution: {integrity: sha512-ivatRXWwKC6ImcdKO7dOwXuXR5XFrdwo45qFwD7D0qOkEPzzJdLXC3BHceBdyrPOD3p1suPaWi4Y4NMm2D++AQ==}
     engines: {node: '>=18'}
     dev: true
 
