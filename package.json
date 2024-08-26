@@ -21,7 +21,7 @@
   "license": "ISC",
   "devDependencies": {
     "@babel/core": "7.25.2",
-    "@babel/preset-env": "7.25.3",
+    "@babel/preset-env": "7.25.4",
     "@babel/preset-react": "7.24.7",
     "@babel/preset-typescript": "7.24.7",
     "@preconstruct/cli": "2.8.7",
