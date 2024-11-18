@@ -1,6 +1,6 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "extends": ["config:base", "schedule:earlyMondays"],
+  "extends": ["config:recommended", "schedule:earlyMondays"],
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch", "pin", "digest"],
@@ -13,16 +13,16 @@
       "automergeStrategy": "squash"
     },
     {
-      "matchPackagePatterns": ["eslint", "@typescript-eslint/"],
-      "groupName": "eslint"
+      "groupName": "eslint",
+      "matchPackageNames": ["/eslint/", "/@typescript-eslint//"]
     },
     {
-      "matchPackagePatterns": ["jest"],
-      "groupName": "jest"
+      "groupName": "jest",
+      "matchPackageNames": ["/jest/"]
     },
     {
-      "matchPackagePatterns": ["babel"],
-      "groupName": "babel"
+      "groupName": "babel",
+      "matchPackageNames": ["/babel/"]
     }
   ]
 }
