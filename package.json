@@ -26,6 +26,7 @@
     "eslint": "catalog:",
     "eslint-plugin-format": "catalog:",
     "lint-staged": "catalog:",
+    "prettier": "catalog:",
     "simple-git-hooks": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:",
