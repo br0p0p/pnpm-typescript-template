@@ -2,6 +2,7 @@
   "name": "a",
   "version": "1.0.0",
   "description": "",
+  "type": "module",
   "zshy": "./src/index.ts",
   "scripts": {
     "build": "zshy",
