@@ -25,11 +25,19 @@
     "del-cli": "catalog:",
     "eslint": "catalog:",
     "eslint-plugin-format": "catalog:",
+    "lint-staged": "catalog:",
+    "simple-git-hooks": "catalog:",
     "typescript": "catalog:",
     "vitest": "catalog:",
     "zshy": "catalog:"
   },
   "workspaces": [
     "packages/*"
-  ]
+  ],
+  "simple-git-hooks": {
+    "pre-commit": "pnpm lint-staged"
+  },
+  "lint-staged": {
+    "*": "eslint --fix"
+  }
 }
