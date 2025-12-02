@@ -21,13 +21,13 @@
     "typecheck": "tsc --noEmit"
   },
   "devDependencies": {
-    "@antfu/eslint-config": "^6.2.0",
-    "del-cli": "6.0.0",
-    "eslint": "^9.38.0",
-    "eslint-plugin-format": "^1.0.2",
-    "typescript": "5.9.3",
-    "vitest": "4.0.14",
-    "zshy": "0.6.0"
+    "@antfu/eslint-config": "catalog:",
+    "del-cli": "catalog:",
+    "eslint": "catalog:",
+    "eslint-plugin-format": "catalog:",
+    "typescript": "catalog:",
+    "vitest": "catalog:",
+    "zshy": "catalog:"
   },
   "workspaces": [
     "packages/*"
