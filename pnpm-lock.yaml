@@ -10,8 +10,8 @@ catalogs:
       specifier: ^6.2.0
       version: 6.2.0
     del-cli:
-      specifier: 6.0.0
-      version: 6.0.0
+      specifier: 7.0.0
+      version: 7.0.0
     eslint:
       specifier: ^9.38.0
       version: 9.39.1
@@ -46,7 +46,7 @@ importers:
         version: 6.2.0(@vue/compiler-sfc@3.5.25)(eslint-plugin-format@1.0.2(eslint@9.39.1))(eslint@9.39.1)(typescript@5.9.3)(vitest@4.0.14(yaml@2.8.2))
       del-cli:
         specifier: 'catalog:'
-        version: 6.0.0
+        version: 7.0.0
       eslint:
         specifier: 'catalog:'
         version: 9.39.1
@@ -882,8 +882,8 @@ packages:
   deep-is@0.1.4:
     resolution: {integrity: sha512-oIPzksmTg4/MriiaYGO+okXDT7ztn/w3Eptv/+gSIdMdKsJo0u4CfYNFJPy+4SKMuCqGw2wxnA+URMg3t8a/bQ==}
 
-  del-cli@6.0.0:
-    resolution: {integrity: sha512-9nitGV2W6KLFyya4qYt4+9AKQFL+c0Ehj5K7V7IwlxTc6RMCfQUGY9E9pLG6e8TQjtwXpuiWIGGZb3mfVxyZkw==}
+  del-cli@7.0.0:
+    resolution: {integrity: sha512-fRl4pWJYu9WFQH8jXdQUYvcD0IMtij9WEc7qmB7xOyJEweNJNuE7iKmqNeoOT1DbBUjtRjxlw8Y63qKBI/NQ1g==}
     engines: {node: '>=18'}
     hasBin: true
 
@@ -1464,9 +1464,9 @@ packages:
   mdast-util-to-string@4.0.0:
     resolution: {integrity: sha512-0H44vDimn51F0YwvxSJSm0eCDOJTRlmN0R1yBh4HLj9wiV1Dn0QoXGbvFAWj2hSItVTlCmBF1hqKlIyUBVFLPg==}
 
-  meow@13.2.0:
-    resolution: {integrity: sha512-pxQJQzB6djGPXh08dacEloMFopsOqGVRKFPYvPOt9XDZ1HasbgDZA74CJGreSU4G3Ak7EFJGoiH2auq+yXISgA==}
-    engines: {node: '>=18'}
+  meow@14.0.0:
+    resolution: {integrity: sha512-JhC3R1f6dbspVtmF3vKjAWz1EVIvwFrGGPLSdU6rK79xBwHWTuHoLnRX/t1/zHS1Ch1Y2UtIrih7DAHuH9JFJA==}
+    engines: {node: '>=20'}
 
   merge2@1.4.1:
     resolution: {integrity: sha512-8q7VEgMJW4J8tcfVPy8g09NcQwZdbwFEqhe/WZkoIzjn/3TGDwtOCYtXGxA3O8tPzpczCCDgv+P2P5y00ZJOOg==}
@@ -2806,10 +2806,11 @@ snapshots:
 
   deep-is@0.1.4: {}
 
-  del-cli@6.0.0:
+  del-cli@7.0.0:
     dependencies:
       del: 8.0.1
-      meow: 13.2.0
+      meow: 14.0.0
+      presentable-error: 0.0.1
 
   del@8.0.1:
     dependencies:
@@ -3527,7 +3528,7 @@ snapshots:
     dependencies:
       '@types/mdast': 4.0.4
 
-  meow@13.2.0: {}
+  meow@14.0.0: {}
 
   merge2@1.4.1: {}
 
