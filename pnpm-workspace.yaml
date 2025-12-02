@@ -1,7 +1,17 @@
 packages:
   # all packages in subdirs of packages/ and components/
-  - "packages/**"
+  - 'packages/**'
   # exclude packages that are inside test directories
-  - "!**/test/**"
+  - '!**/test/**'
 
-savePrefix: ""
+savePrefix: ''
+catalog:
+  '@antfu/eslint-config': ^6.2.0
+  del-cli: 6.0.0
+  eslint: ^9.38.0
+  eslint-plugin-format: ^1.0.2
+  lint-staged: ^16.2.7
+  simple-git-hooks: ^2.13.1
+  typescript: 5.9.3
+  vitest: 4.0.14
+  zshy: 0.6.0
