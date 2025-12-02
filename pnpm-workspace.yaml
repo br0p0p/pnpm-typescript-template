@@ -11,6 +11,7 @@ catalog:
   eslint: ^9.38.0
   eslint-plugin-format: ^1.0.2
   lint-staged: ^16.2.7
+  prettier: ^3.7.3
   simple-git-hooks: ^2.13.1
   typescript: 5.9.3
   vitest: 4.0.14
