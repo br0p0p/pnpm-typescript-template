@@ -1,4 +1,5 @@
-import { subtract } from ".";
+import { describe, it, expect } from "vitest";
+import { subtract } from "./index.ts";
 
 describe("subtract", () => {
   it("works", () => {
