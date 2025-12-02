@@ -1,10 +1,13 @@
 {
   "name": "pnpm-typescript-template",
-  "private": true,
-  "version": "0.1.0",
-  "description": "",
   "type": "module",
+  "version": "0.1.0",
+  "private": true,
   "packageManager": "pnpm@9.15.9",
+  "description": "",
+  "author": "Caleb Williams",
+  "license": "ISC",
+  "keywords": [],
   "engines": {
     "node": ">=24"
   },
@@ -17,17 +20,14 @@
     "test": "vitest",
     "typecheck": "tsc --noEmit"
   },
-  "keywords": [],
-  "author": "Caleb Williams",
-  "license": "ISC",
   "devDependencies": {
+    "@antfu/eslint-config": "^6.2.0",
     "del-cli": "6.0.0",
+    "eslint": "^9.38.0",
+    "eslint-plugin-format": "^1.0.2",
     "typescript": "5.9.3",
     "vitest": "4.0.14",
-    "zshy": "0.6.0",
-    "@antfu/eslint-config": "^6.2.0",
-    "eslint": "^9.38.0",
-    "eslint-plugin-format": "^1.0.2"
+    "zshy": "0.6.0"
   },
   "workspaces": [
     "packages/*"

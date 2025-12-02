@@ -1,29 +1,29 @@
 {
   "name": "a",
+  "type": "module",
   "version": "1.0.0",
   "description": "",
-  "type": "module",
   "zshy": "./src/index.ts",
-  "scripts": {
-    "build": "zshy",
-    "test": "vitest",
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {},
-  "keywords": [],
   "author": "Caleb Williams",
   "license": "ISC",
-  "files": [
-    "dist"
-  ],
-  "main": "./dist/index.cjs",
-  "module": "./dist/index.js",
-  "types": "./dist/index.d.cts",
+  "keywords": [],
   "exports": {
     ".": {
       "types": "./dist/index.d.cts",
       "import": "./dist/index.js",
       "require": "./dist/index.cjs"
     }
-  }
+  },
+  "main": "./dist/index.cjs",
+  "module": "./dist/index.js",
+  "types": "./dist/index.d.cts",
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "zshy",
+    "test": "vitest",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {}
 }
