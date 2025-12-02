@@ -24,7 +24,10 @@
     "del-cli": "6.0.0",
     "typescript": "5.9.3",
     "vitest": "4.0.14",
-    "zshy": "0.6.0"
+    "zshy": "0.6.0",
+    "@antfu/eslint-config": "^6.2.0",
+    "eslint": "^9.38.0",
+    "eslint-plugin-format": "^1.0.2"
   },
   "workspaces": [
     "packages/*"
