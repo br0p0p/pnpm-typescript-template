@@ -34,8 +34,8 @@ catalogs:
       specifier: 4.0.16
       version: 4.0.16
     zshy:
-      specifier: 0.6.0
-      version: 0.6.0
+      specifier: 0.7.0
+      version: 0.7.0
 
 importers:
 
@@ -70,7 +70,7 @@ importers:
         version: 4.0.16(yaml@2.8.2)
       zshy:
         specifier: 'catalog:'
-        version: 0.6.0(typescript@5.9.3)
+        version: 0.7.0(typescript@5.9.3)
 
   packages/a: {}
 
@@ -2084,8 +2084,8 @@ packages:
     resolution: {integrity: sha512-rVksvsnNCdJ/ohGc6xgPwyN8eheCxsiLM8mxuE/t/mOVqJewPuO1miLpTHQiRgTKCLexL4MeAFVagts7HmNZ2Q==}
     engines: {node: '>=10'}
 
-  zshy@0.6.0:
-    resolution: {integrity: sha512-Z44cazaJFGvl+Db0yxKMfJoKq6CKXh7MLWqkLZH6Yo3ZmjO3HD+mF2+L5qZS8/Gk2nTKttf2YZungk8QPapeaw==}
+  zshy@0.7.0:
+    resolution: {integrity: sha512-nBQv7JaVC+lUMK9+uD9LgXNHPsz3uo5gdk33ojCndY8hT4EkrGovwjacPsvB7BlTuV++i9bPQFFzWYrQyTH3DA==}
     hasBin: true
     peerDependencies:
       typescript: '>5.5.0'
@@ -4198,7 +4198,7 @@ snapshots:
 
   yocto-queue@0.1.0: {}
 
-  zshy@0.6.0(typescript@5.9.3):
+  zshy@0.7.0(typescript@5.9.3):
     dependencies:
       arg: 5.0.2
       fast-glob: 3.3.3
