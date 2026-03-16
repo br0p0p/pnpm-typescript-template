@@ -14,5 +14,5 @@ catalog:
   prettier: ^3.7.3
   simple-git-hooks: ^2.13.1
   typescript: 5.9.3
-  vitest: 4.0.18
+  vitest: 4.1.0
   zshy: 0.7.0
