@@ -13,6 +13,6 @@ catalog:
   lint-staged: ^16.2.7
   prettier: ^3.7.3
   simple-git-hooks: ^2.13.1
-  typescript: 5.9.3
+  typescript: 7.0.2
   vitest: 4.1.11
   zshy: 0.7.3
